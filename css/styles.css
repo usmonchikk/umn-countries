@@ -1,3 +1,11 @@
+/* Custom Props */
+:root{
+  --text-color:#111517;
+  --element-bg:#fff;
+  --body-bg:#fafafa;
+}
+
+
 
 /* GLOBAL */
 
@@ -20,21 +28,32 @@ body{
   padding: 0;
   margin: 0;
   font-family: "Arial",sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color:#fff;
-color:#222;
+  font-size: 14px;
+  line-height: 16px;
+  background-color:var(--body-bg);
+  color:var(--text-color);
 }
 
 img{
   max-width: 100%;
   height: auto;
 }
+
+.a{
+  text-decoration: none;
+}
+
+.dark-mode{
+  --body-bg:#202c36;
+--element-bg:#2b3844;
+--text-color:#fff;
+}
+
 .container{
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
